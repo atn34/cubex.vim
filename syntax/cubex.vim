@@ -20,7 +20,7 @@ syntax region  cubexConst start=+"+ end=+"+
 syntax match   cubexConst "\<[0-9]+\>"
 syntax match   cubexId "\<[a-z][a-zA-Z0-9_]*\>"
 syntax match   cubexComment "#.*$"
-syntax region  cubexComment start="`" end="'"
+syntax region  cubexComment start="`" end="'" contains=cubexComment
 
 highlight link cubexCond Conditional
 highlight link cubexKeyword Keyword

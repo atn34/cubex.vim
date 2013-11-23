@@ -7,3 +7,4 @@ Installation
 ============
 
 cubex.vim can be installed via [Vundle](https://github.com/gmarik/vundle).
+Your preferred installation method probably also works.
